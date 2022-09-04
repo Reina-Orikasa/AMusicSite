@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/static/css/main.588d8679.css",
-    "main.js": "/static/js/main.675618b9.js",
-    "static/js/787.8cf4457e.chunk.js": "/static/js/787.8cf4457e.chunk.js",
-    "index.html": "/index.html",
-    "main.588d8679.css.map": "/static/css/main.588d8679.css.map",
-    "main.675618b9.js.map": "/static/js/main.675618b9.js.map",
-    "787.8cf4457e.chunk.js.map": "/static/js/787.8cf4457e.chunk.js.map"
+    "main.css": "/AMusicSite/static/css/main.588d8679.css",
+    "main.js": "/AMusicSite/static/js/main.dc74e10e.js",
+    "static/js/787.8cf4457e.chunk.js": "/AMusicSite/static/js/787.8cf4457e.chunk.js",
+    "index.html": "/AMusicSite/index.html",
+    "main.588d8679.css.map": "/AMusicSite/static/css/main.588d8679.css.map",
+    "main.dc74e10e.js.map": "/AMusicSite/static/js/main.dc74e10e.js.map",
+    "787.8cf4457e.chunk.js.map": "/AMusicSite/static/js/787.8cf4457e.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.588d8679.css",
-    "static/js/main.675618b9.js"
+    "static/js/main.dc74e10e.js"
   ]
 }
