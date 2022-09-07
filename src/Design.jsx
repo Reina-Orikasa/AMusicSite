@@ -70,6 +70,8 @@ function Design(props) {
                 src="https://source.unsplash.com/random/400x300"
                 alt="street theme"
                 className="rounded-md"
+                width={400}
+                height={300}
               />
               <figcaption className="font-light mb-4">
                 {props.mood} Theme

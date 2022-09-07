@@ -9,9 +9,12 @@ function Gallery() {
           <img
             src="https://images.unsplash.com/photo-1637580980556-085dee659c7e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1742&q=80"
             alt="example"
+            width={1742}
+            height={1162}
+            loading="lazy"
           ></img>
           <figcaption>Adventure Theme by user Bikey.</figcaption>
-          <button className="border-2 border-black rounded-full px-3">
+          <button className="border-2 border-black rounded-full px-3 hover:bg-black hover:text-white">
             Explore
           </button>
         </figure>
@@ -19,9 +22,12 @@ function Gallery() {
           <img
             src="https://images.unsplash.com/photo-1483412033650-1015ddeb83d1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1746&q=80"
             alt="example"
+            width={1746}
+            height={1160}
+            loading="lazy"
           ></img>
           <figcaption>Chill Playlist by user Dyr</figcaption>
-          <button className="border-2 border-black rounded-full mt-3 px-3">
+          <button className="border-2 border-black rounded-full mt-3 px-3 hover:bg-black hover:text-white">
             Explore
           </button>
         </figure>
@@ -29,9 +35,12 @@ function Gallery() {
           <img
             src="https://images.unsplash.com/photo-1637756856486-9d0cbe42a560?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740&q=80"
             alt="example"
+            width={1740}
+            height={1160}
+            loading="lazy"
           ></img>
           <figcaption>Passing Time by user Fish</figcaption>
-          <button className="border-2 border-black rounded-full mt-3 px-3">
+          <button className="border-2 border-black rounded-full mt-3 px-3 hover:bg-black hover:text-white">
             Explore
           </button>
         </figure>

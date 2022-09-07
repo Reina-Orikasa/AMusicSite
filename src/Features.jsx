@@ -23,10 +23,13 @@ function Features() {
           <img
             src="https://images.unsplash.com/photo-1639218690253-f2f69df61251?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740&q=80"
             alt="relaxing"
+            width={1740}
+            height={1160}
+            loading="lazy"
           ></img>
           <figcaption>Relaxing</figcaption>
           <button
-            className="border-2 bg-fuchsia-100 rounded-full px-3 py-2 mt-6 hover:bg-fuchsia-400 font-semibold"
+            className="border-2 bg-amber-comp rounded-full px-3 py-2 mt-6 hover:bg-indigo-600 hover:text-white font-semibold"
             onClick={() => updateMood('Relaxing')}
           >
             Select
@@ -37,10 +40,13 @@ function Features() {
           <img
             src="https://images.unsplash.com/photo-1639171430793-544183b40ab2?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1742&q=80"
             alt="creativity"
+            width={1742}
+            height={1161}
+            loading="lazy"
           ></img>
           <figcaption>Creative</figcaption>
           <button
-            className="border-2 bg-fuchsia-100 rounded-full px-3 py-2 mt-6 hover:bg-fuchsia-400 font-semibold"
+            className="border-2 bg-pink-comp rounded-full px-3 py-2 mt-6 hover:bg-emerald-300 font-semibold"
             onClick={() => updateMood('Creative')}
           >
             Select
@@ -51,10 +57,13 @@ function Features() {
           <img
             src="https://images.unsplash.com/photo-1521587760476-6c12a4b040da?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740&q=80"
             alt="Studying"
+            width={1740}
+            height={1160}
+            loading="lazy"
           ></img>
           <figcaption>Study</figcaption>
           <button
-            className="border-2 bg-emerald-200 rounded-full px-3 py-2 mt-6 hover:bg-emerald-400 font-semibold"
+            className="border-2 bg-slate-comp rounded-full px-3 py-2 mt-6 hover:bg-orange-300 font-semibold"
             onClick={() => updateMood('Study')}
           >
             Select
